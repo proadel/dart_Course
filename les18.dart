@@ -20,7 +20,7 @@ void main () {
  double? gpa; 
 
   Student (this.name, this.age, this.gpa); 
-  //bool hasHonor() =>   gpa > 2.7; //--> boolian true if >2.7 gpa .. but ErrorOperator 
+  //bool hasHonor() =>   gpa > 2.7; //--> boolean true if >2.7 gpa .. but ErrorOperator 
   // '>' cannot be called on 'double?' because it is potentially null. //= ! missing NullSafety
   bool hasHonor() =>   gpa! > 2.7; //--> add ! for var
   //--> Good Luck ... End of les18.
